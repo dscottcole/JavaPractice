@@ -1,0 +1,25 @@
+package GeoPackage;
+
+public class Rectangle {
+	private int length;
+	private int breadth;
+	
+	public void setLength(int l) {
+		length = l;
+	}
+	
+	public void setBreadth(int b) {
+		breadth = b;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Rectangle johnny = new Rectangle();
+		johnny.setLength(5);
+		johnny.setBreadth(3);
+		johnny.length = 7;
+		System.out.println("Length: " + johnny.length);
+		System.out.println("Breadth: " + johnny.breadth);
+	}
+
+}

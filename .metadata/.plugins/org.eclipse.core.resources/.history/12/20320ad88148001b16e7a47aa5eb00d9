@@ -1,0 +1,17 @@
+package FirstPackage;
+
+public class Account {
+	private double balance = 500.00;
+	public double getBalance(int accountId) {
+		return balance;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		Account accnt = new Account();
+//		double value = accnt.getBalance(123456);
+//		System.out.println("The balance is: " + value);
+		System.out.println(args.length);
+		System.out.println(args[0]);
+		System.out.println(args[1]);
+	}
+}
