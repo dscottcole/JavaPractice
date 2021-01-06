@@ -56,7 +56,7 @@ public class Chocolate {
 		choco.setName("Hershey's");
 		choco.setWeight(24);
 		choco.setCost(50);
-		System.out.println("----------------------");
+		System.out.println("--------------`--------");
 		System.out.println(choco.getBarCode());
 		System.out.println(choco.getName());
 		System.out.println(choco.getWeight());
